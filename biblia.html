@@ -1,0 +1,92 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>La Biblia</title>
+
+    <style>
+
+    body{
+        font-family: Georgia, serif;
+        background: linear-gradient(135deg, #dff9fb, #f8e8ff);
+        text-align: center;
+        padding: 30px;
+    }
+
+    h1{
+        color: #4b2e83;
+        font-size: 40px;
+    }
+
+    .contenedor-fotos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    img{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+        transition: 0.4s;
+    }
+
+    img:hover{
+        transform: scale(1.08);
+    }
+
+    .btn-volver{
+        display: inline-block;
+        margin-top: 30px;
+        text-decoration: none;
+        background: linear-gradient(45deg, #8e44ad, #ff66c4);
+        color: white;
+        padding: 12px 20px;
+        border-radius: 30px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .btn-volver:hover{
+        transform: scale(1.05);
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>📖✨ Libros de la Biblia que He Leído y Recomiendo ✨📖</h1>
+
+    <br>
+
+    <div class="contenedor-fotos">
+
+        <a href="job.html">
+            <img src="Job.jpg" alt="Libro de Job">
+        </a>
+
+        <a href="cronicas.html">
+            <img src="1y2SegundadeCronicas.jpg" alt="Crónicas">
+        </a>
+
+        <a href="reyes.html">
+            <img src="Reyes.jpg" alt="Reyes">
+        </a>
+
+        <a href="salmos.html">
+            <img src="salmos.jpg" alt="Salmos">
+        </a>
+
+    </div>
+
+    <br>
+
+    <a href="index.html" class="btn-volver">
+        Volver al inicio
+    </a>
+
+</body>
+</html>
